@@ -17,11 +17,6 @@ namespace Akıl_Okuyucu
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private async void button1_Click(object sender, EventArgs e)
         {
             int data;
@@ -36,14 +31,6 @@ namespace Akıl_Okuyucu
             form2.Show();
             await Task.Delay(6500);
         }
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
